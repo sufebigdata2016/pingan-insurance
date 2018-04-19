@@ -1,4 +1,5 @@
 import pandas as pd
+import numpy as np
 
 train_path = "PINGAN-2018-train_demo.csv"
 train_data = pd.read_csv(train_path)
@@ -37,7 +38,7 @@ train_data.Y.mean()
 # 画三维图
 
 def a():
-    return 
+    return
 
 if __name__ == "__main__":
 
